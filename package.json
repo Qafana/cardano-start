@@ -1,0 +1,35 @@
+{
+  "name": "cardano-start",
+  "version": "1.0.0",
+  "description": "CLI tool for cardano infrastructure to run locally",
+  "exports": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qafana/cardano-start.git"
+  },
+  "keywords": [
+    "cardano",
+    "blockchain",
+    "web3",
+    "node"
+  ],
+  "author": "Qafana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qafana/cardano-start/issues"
+  },
+  "homepage": "https://github.com/Qafana/cardano-start#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.1"
+  },
+  "bin": {
+    "cardano-start": "index.js"
+  }
+}
