@@ -2,7 +2,8 @@
   "name": "cardano-start",
   "version": "1.0.0",
   "description": "CLI tool for cardano infrastructure to run locally",
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/Qafana/cardano-start/issues"
   },
-  "homepage": "https://github.com/Qafana/cardano-start#readme"
+  "homepage": "https://github.com/Qafana/cardano-start#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.1"
+  },
+  "bin": {
+    "cardano-start": "index.js"
+  }
 }
