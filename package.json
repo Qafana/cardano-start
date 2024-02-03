@@ -2,7 +2,7 @@
   "name": "cardano-start",
   "version": "1.0.0",
   "description": "CLI tool for cardano infrastructure to run locally",
-  "exports": "./index.js",
+  "exports": "./cardano-start.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,6 +30,6 @@
     "ora": "^8.0.1"
   },
   "bin": {
-    "cardano-start": "index.js"
+    "cardano-start": "cardano-start.js"
   }
 }
